@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+div.area_game {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 330px;
+  background-color: aqua;
+}
+
+div.ground {
+  width: 400px;
+  height: 70px;
+  transform: translate(0px, 320px);
+  background-color: brown;
+}
+
+div.bird {
+  transform: translate(0px, 290px);
+}
+
+.osta_sotto {
+  width: 50px;
+  height: 110px;
+  position: relative;
+  top: 190px;
+  left: 200px;
+  background-image: url("pipe.png");
+}
+
+.osta_sopra {
+  width: 50px;
+  height: 110px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  background-image: url("pipe.png");
+  rotate: 180deg;
+}
